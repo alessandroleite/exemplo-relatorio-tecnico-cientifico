@@ -1,4 +1,4 @@
-Relatório técnico-científico
+Exemplo de Relatório Técnico-Científico
 ---
 
 Exemplo de estrutura do relatório técnico-científico a ser enviado ao CNPq como requisito parcial para encerramento do processo do [doutorado sanduíche no exterior (SWE).](http://www.cienciasemfronteiras.gov.br/web/csf/doutorado-sanduiche)
