@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage{xcolor,graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage[english,brazil]{babel} %hifenação em português e inglês
+\usepackage{newcent} %fonte New Century
+\usepackage{natbib}%% trabalha as referências bibliográficas
+\usepackage{palatino, url, multicol}
+\usepackage{listings}
+\usepackage{lscape}
+\usepackage{synttree}
+\usepackage{pdfpages}
+
+
+
+\begin{document}
+\begin{sloppypar}
+\everymath{\displaystyle}
+
+\includepdf[pages={1}]{00-pretextos/folha-rosto.pdf}
+
+\input{01-textos/01-introducao}\textbf{}
+\input{01-textos/02-objetivos}
+\input{01-textos/03-metodologia}
+\input{01-textos/05-conclusao}
+
+\footnotesize
+\bibliographystyle{alpha}
+\bibliography{03-references/references}
+
+\normalsize
+\input{02-anexos/01-atividades-desenvolvidas}
+\input{02-anexos/02-publicacoes}
+\input{02-anexos/03-outras-atividades-academicas}
+
+\end{sloppypar}
+
+\end{document}
